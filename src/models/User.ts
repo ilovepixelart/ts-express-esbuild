@@ -26,6 +26,6 @@ UserSchema.plugin(patchHistoryPlugin, {
   omit: ['__v', 'createdAt', 'updatedAt']
 })
 
-const User = models.User || model<IUser>('User', UserSchema)
+const User = models.User ?? model<IUser>('User', UserSchema)
 
 export default User
