@@ -31,4 +31,10 @@
     "node_modules",
     "tests"
   ],
+  "ts-node": {
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
 }
