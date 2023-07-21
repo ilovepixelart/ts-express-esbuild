@@ -10,13 +10,16 @@
   "plugins": [
     "@typescript-eslint",
     "jest",
-    "jest-formatting"
+    "jest-formatting",
+    "sonarjs"
   ],
   "extends": [
-    "standard",
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/strict",
+    "plugin:@typescript-eslint/stylistic",
+    "plugin:sonarjs/recommended"
   ],
   "globals": {
     "Atomics": "readonly",
@@ -83,8 +86,9 @@
         "src/**/*.ts"
       ],
       "extends": [
-        "plugin:@typescript-eslint/recommended-requiring-type-checking",
-        "plugin:@typescript-eslint/strict"
+        "plugin:@typescript-eslint/recommended-type-checked",
+        "plugin:@typescript-eslint/strict-type-checked",
+        "plugin:@typescript-eslint/stylistic-type-checked"
       ],
       "rules": {
         "@typescript-eslint/no-dynamic-delete": "off",
