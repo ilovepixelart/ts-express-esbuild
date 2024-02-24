@@ -29,7 +29,9 @@
   ],
   "exclude": [
     "node_modules",
-    "tests"
+    "tests",
+    "dist",
+    "coverage"
   ],
   "ts-node": {
     "transpileOnly": true,
