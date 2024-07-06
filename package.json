@@ -21,9 +21,9 @@
     "mongoose": "8.4.5",
     "morgan": "1.10.0",
     "pug": "3.0.3",
-    "ts-cache-mongoose": "1.6.2",
-    "ts-migrate-mongoose": "3.8.1",
-    "ts-patch-mongoose": "2.6.2",
+    "ts-cache-mongoose": "1.6.3",
+    "ts-migrate-mongoose": "3.8.2",
+    "ts-patch-mongoose": "2.6.3",
     "tslib": "2.6.3"
   },
   "devDependencies": {
