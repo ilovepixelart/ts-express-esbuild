@@ -38,7 +38,7 @@
     "@types/node": "20",
     "@typescript-eslint/eslint-plugin": "7.18.0",
     "@typescript-eslint/parser": "7.18.0",
-    "esbuild": "0.23.0",
+    "esbuild": "0.23.1",
     "esbuild-jest": "^0.4.0",
     "esbuild-node-tsc": "2.0.5",
     "esbuild-register": "3.6.0",
