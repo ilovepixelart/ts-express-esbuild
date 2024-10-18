@@ -21,7 +21,7 @@
     "mongoose": "8.5.2",
     "morgan": "1.10.0",
     "pug": "3.0.3",
-    "ts-cache-mongoose": "1.6.4",
+    "ts-cache-mongoose": "1.6.5",
     "ts-migrate-mongoose": "3.8.3",
     "ts-patch-mongoose": "2.6.4",
     "tslib": "2.6.3"
