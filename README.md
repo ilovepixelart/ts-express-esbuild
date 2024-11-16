@@ -16,4 +16,3 @@ You can run it using docker:
 docker compose build
 docker compose up
 ```
-

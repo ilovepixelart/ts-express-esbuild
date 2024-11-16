@@ -4,23 +4,22 @@ import { MongoMemoryServer } from 'mongodb-memory-server'
 
 import type { Connection } from 'mongoose'
 
-describe('mongoose', () => {
-  let connection: Connection
+describe('mongoose', async () => {
+  const mongod = await MongoMemoryServer.create()
 
   beforeAll(async () => {
-    const mongod = await MongoMemoryServer.create()
     const uri = mongod.getUri()
-
-    connection = await mongoose.createConnection(uri).asPromise()
-    await connection.collection('migrations').deleteMany({})
+    await mongoose.connect(uri)
   })
 
   afterAll(async () => {
-    await connection?.close()
+    await mongoose.connection.dropDatabase()
+    await mongoose.connection.close()
+    await mongod.stop()
   })
 
   it('should insert a doc into collection', async () => {
-    const users = connection.db?.collection('users')
+    const users = mongoose.connection.db?.collection('users')
 
     const mockUser = { name: 'John' }
     const user = await users?.insertOne(mockUser)
