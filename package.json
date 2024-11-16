@@ -33,6 +33,7 @@
     "@types/http-errors": "2.0.4",
     "@types/morgan": "1.9.9",
     "@types/node": "22",
+    "@vitest/coverage-v8": "2.1.5",
     "esbuild": "0.24.0",
     "esbuild-node-tsc": "2.0.5",
     "esbuild-register": "3.6.0",
