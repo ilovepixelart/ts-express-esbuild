@@ -7,8 +7,8 @@
 * [ts-cache-mongoose](https://github.com/ilovepixelart/ts-cache-mongoose) - mongoose cache (in-memory, redis)
 * [typescript 5](https://www.typescriptlang.org/)
 * [esbuild](https://esbuild.github.io/) for typescript transpilation
-* eslint-standard
-* jest with ts-node that uses esbuild + in memory mongodb for testing
+* biome for linting and formatting
+* vitest with mongodb-memory-server for testing
 
 You can run it using docker:
 
