@@ -23,8 +23,8 @@ npm run start # production mode
 npm run biome # lint & format check
 npm run biome:fix # lint & format auto fix
 
-npm run test # to run all test
-npm run test:open # to run coverage & open istanbul in browser
+npm run test # to run all tests
+npm run test:open # to run coverage & open istanbul in the browser
 ```
 
 You can run it using docker:
