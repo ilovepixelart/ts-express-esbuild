@@ -16,7 +16,9 @@ Commands:
 npm i
 
 npm run dev # developer mode
+
 npm run build # build using esbuild
+npm run start # production mode
 
 npm run biome # lint & format check
 npm run biome:fix # lint & format auto fix
