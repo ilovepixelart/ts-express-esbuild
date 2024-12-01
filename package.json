@@ -27,7 +27,7 @@
     "ts-patch-mongoose": "2.6.6"
   },
   "devDependencies": {
-    "@types/cookie-parser": "1.4.7",
+    "@types/cookie-parser": "1.4.8",
     "@types/debug": "4.1.12",
     "@types/express": "5.0.0",
     "@types/http-errors": "2.0.4",
