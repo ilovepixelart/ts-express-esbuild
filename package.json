@@ -38,7 +38,7 @@
     "esbuild-node-tsc": "2.0.5",
     "esbuild-register": "3.6.0",
     "mongodb-memory-server": "10.1.2",
-    "nodemon": "3.1.7",
+    "nodemon": "3.1.9",
     "open-cli": "8.0.0",
     "typescript": "5.7.2",
     "vitest": "2.1.8"
