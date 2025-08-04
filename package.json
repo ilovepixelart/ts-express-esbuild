@@ -13,7 +13,7 @@
     "test:open": "npm test && open-cli coverage/lcov-report/index.html"
   },
   "dependencies": {
-    "@biomejs/biome": "2.0.6",
+    "@biomejs/biome": "2.1.1",
     "cookie-parser": "1.4.7",
     "debug": "4.4.1",
     "dotenv": "17.0.1",
