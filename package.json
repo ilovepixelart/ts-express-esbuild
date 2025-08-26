@@ -13,13 +13,13 @@
     "test:open": "npm test && open-cli coverage/lcov-report/index.html"
   },
   "dependencies": {
-    "@biomejs/biome": "2.2.0",
+    "@biomejs/biome": "2.2.2",
     "cookie-parser": "1.4.7",
     "debug": "4.4.1",
     "dotenv": "17.2.1",
     "express": "5.1.0",
     "http-errors": "2.0.0",
-    "mongoose": "8.17.2",
+    "mongoose": "8.18.0",
     "morgan": "1.10.1",
     "pug": "3.0.3",
     "ts-cache-mongoose": "1.7.5",
