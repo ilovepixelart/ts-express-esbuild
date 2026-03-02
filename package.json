@@ -13,17 +13,17 @@
     "test:open": "npm test && open-cli coverage/lcov-report/index.html"
   },
   "dependencies": {
-    "@biomejs/biome": "2.4.4",
+    "@biomejs/biome": "2.4.5",
     "cookie-parser": "1.4.7",
     "debug": "4.4.3",
     "dotenv": "17.3.1",
     "express": "5.2.1",
     "http-errors": "2.0.1",
-    "mongoose": "9.2.2",
+    "mongoose": "9.2.3",
     "morgan": "1.10.1",
     "pug": "3.0.3",
     "ts-cache-mongoose": "1.7.7",
-    "ts-migrate-mongoose": "4.2.1",
+    "ts-migrate-mongoose": "4.2.2",
     "ts-patch-mongoose": "2.9.6"
   },
   "devDependencies": {
@@ -32,7 +32,7 @@
     "@types/express": "5.0.6",
     "@types/http-errors": "2.0.5",
     "@types/morgan": "1.9.10",
-    "@types/node": "25.3.0",
+    "@types/node": "25.3.3",
     "@vitest/coverage-v8": "4.0.18",
     "esbuild": "0.27.3",
     "esbuild-node-tsc": "2.0.5",
