@@ -2,6 +2,9 @@
   "name": "ts-express-esbuild",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "start": "node ./dist/bin/www.js",
     "build": "esbuild 'src/**/*.ts' --outdir=dist --platform=node --format=cjs --target=es2021 --sourcemap --tsconfig=tsconfig.json --log-level=warning",
@@ -33,7 +36,7 @@
     "@types/express": "5.0.6",
     "@types/http-errors": "2.0.5",
     "@types/morgan": "1.9.10",
-    "@types/node": "25.9.9",
+    "@types/node": "22.20.5",
     "@vitest/coverage-v8": "5.1.0",
     "esbuild": "0.28.2",
     "esbuild-register": "3.6.0",
