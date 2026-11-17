@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./dist/bin/www.js",
-    "build": "etsc src -d dist",
+    "build": "esbuild 'src/**/*.ts' --outdir=dist --platform=node --format=cjs --target=es2021 --sourcemap --tsconfig=tsconfig.json --log-level=warning",
     "build:ts": "tsc --project tsconfig.json",
     "dev": "nodemon --ext ts --exec node --inspect -r esbuild-register src/bin/www.ts",
     "biome": "npx @biomejs/biome check",
@@ -35,12 +35,11 @@
     "@types/node": "25.9.9",
     "@vitest/coverage-v8": "5.1.0",
     "esbuild": "0.28.2",
-    "esbuild-node-tsc": "2.0.5",
     "esbuild-register": "3.6.0",
     "mongodb-memory-server": "11.3.0",
     "nodemon": "3.1.14",
     "open-cli": "9.0.0",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.2",
     "vitest": "5.1.0"
   },
   "overrides": {
