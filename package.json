@@ -9,6 +9,7 @@
     "dev": "nodemon --ext ts --exec node --inspect -r esbuild-register src/bin/www.ts",
     "biome": "npx @biomejs/biome check",
     "biome:fix": "npx @biomejs/biome check --write .",
+    "type:check": "tsc --noEmit -p tsconfig.json",
     "test": "vitest run --coverage",
     "test:open": "npm test && open-cli coverage/lcov-report/index.html"
   },
@@ -39,7 +40,7 @@
     "mongodb-memory-server": "11.3.0",
     "nodemon": "3.1.14",
     "open-cli": "9.0.0",
-    "typescript": "^7.0.2",
+    "typescript": "7.0.2",
     "vitest": "5.1.0"
   },
   "overrides": {
